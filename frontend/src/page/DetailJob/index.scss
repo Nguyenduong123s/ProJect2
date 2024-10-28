@@ -1,0 +1,17 @@
+.tabs {
+    .ant-tabs-nav-list {
+        width: 100%;
+        display: flex;
+        .ant-tabs-tab {
+            .ant-tabs-tab-btn {
+                font-size: 1.2rem;
+                width: 100%;
+                text-align: center;
+            }
+        }
+    }
+}
+
+.ant-tabs-tab {
+    flex: 1;
+}

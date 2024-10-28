@@ -1,0 +1,485 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullname": "Nguyễn Xuân Dương",
+      "username": "nguyenvana@gmail.com",
+      "password": "Matkhau123",
+      "token": "token_abc123"
+    },
+    {
+      "username": "nguyenxuanduong@gmail.com",
+      "fullname": "Nguyen Duong",
+      "password": "D13112003",
+      "token": "KjNIqgwG5#pG6(Z",
+      "id": 2
+    }
+  ],
+  "companys": [
+    {
+      "id": 1,
+      "companyName": "Công ty TNHH ABC",
+      "phone": "0123456789",
+      "email": "contact@abc.com",
+      "password": "Password123",
+      "token": "abc-token-123",
+      "city": "Đà Nẵng",
+      "address": "123 Đường ABC, Quận 1, TP. Hồ Chí Minh",
+      "workingTime": "08:00 - 17:00",
+      "website": "https://abc.com",
+      "quantityPeople": 100,
+      "description": "Công ty TNHH ABC chuyên về công nghệ thông tin, cung cấp giải pháp phần mềm và các dịch vụ IT cho khách hàng trên toàn cầu. Chúng tôi không chỉ mang lại những sản phẩm chất lượng cao mà còn xây dựng mối quan hệ lâu dài với khách hàng. Với đội ngũ kỹ sư giàu kinh nghiệm, công ty ABC luôn cam kết mang lại những giải pháp sáng tạo, cải tiến liên tục để đáp ứng nhu cầu ngày càng tăng của thị trường. Mục tiêu của chúng tôi là tối ưu hóa quy trình công nghệ, đồng thời cung cấp dịch vụ hỗ trợ tận tình, chuyên nghiệp.",
+      "detail": "Công ty TNHH ABC là đơn vị tiên phong trong lĩnh vực phát triển phần mềm, với nhiều năm kinh nghiệm và đội ngũ nhân sự chuyên nghiệp. Chúng tôi chuyên cung cấp các dịch vụ phát triển ứng dụng di động, trang web, và các hệ thống quản lý doanh nghiệp. Ngoài ra, ABC còn hỗ trợ tư vấn công nghệ để giúp khách hàng có giải pháp tối ưu nhất trong việc quản lý và vận hành doanh nghiệp. Sự uy tín và cam kết về chất lượng là giá trị cốt lõi của chúng tôi, cùng với tầm nhìn phát triển mạnh mẽ trong tương lai."
+    },
+    {
+      "id": 2,
+      "companyName": "Công ty Cổ phần XYZ",
+      "phone": "0987654321",
+      "email": "info@xyz.com",
+      "password": "xyzpass456",
+      "token": "xyz-token-456",
+      "city": "Hồ Chí Minh",
+      "address": "456 Đường XYZ, Quận 2, TP. Hồ Chí Minh",
+      "workingTime": "09:00 - 18:00",
+      "website": "https://xyz.com",
+      "quantityPeople": 200,
+      "description": "Công ty Cổ phần XYZ là một trong những doanh nghiệp hàng đầu trong lĩnh vực sản xuất và cung cấp thiết bị điện tử. Với đội ngũ nhân viên chuyên nghiệp và nhà máy sản xuất hiện đại, chúng tôi đã xây dựng được uy tín trên thị trường trong nhiều năm qua. Các sản phẩm của công ty luôn đảm bảo chất lượng cao, đáp ứng đầy đủ các tiêu chuẩn quốc tế. Công ty XYZ luôn chú trọng đến việc nghiên cứu và phát triển để tạo ra những sản phẩm tiên tiến, giúp khách hàng tối ưu hóa hiệu suất sử dụng thiết bị điện tử.",
+      "detail": "Công ty Cổ phần XYZ cam kết mang lại những sản phẩm chất lượng và dịch vụ khách hàng hoàn hảo. Chúng tôi cung cấp đa dạng các thiết bị điện tử từ điện thoại di động, máy tính bảng, cho đến các hệ thống điện tử phức tạp khác. Bên cạnh đó, công ty còn đầu tư vào các hoạt động nghiên cứu và phát triển để liên tục cải tiến và nâng cao chất lượng sản phẩm. Với mục tiêu mở rộng thị trường và phát triển bền vững, XYZ hướng tới việc trở thành doanh nghiệp dẫn đầu trong lĩnh vực công nghệ điện tử tại Việt Nam và khu vực."
+    },
+    {
+      "id": 3,
+      "companyName": "Công ty TNHH DEF",
+      "phone": "0912345678",
+      "email": "support@def.com",
+      "password": "defpass789",
+      "token": "def-token-789",
+      "city": "Hà Nội",
+      "address": "789 Đường DEF, Quận 3, TP. Hồ Chí Minh",
+      "workingTime": "07:30 - 16:30",
+      "website": "https://def.com",
+      "quantityPeople": 50,
+      "description": "Công ty TNHH DEF chuyên cung cấp dịch vụ vận tải và logistics cho các doanh nghiệp và khách hàng cá nhân. Với hệ thống vận chuyển đa dạng và đội ngũ lái xe chuyên nghiệp, chúng tôi đảm bảo giao hàng đúng thời gian, an toàn và tiết kiệm chi phí. Công ty DEF luôn hướng đến việc tối ưu hóa quy trình vận tải, từ đó nâng cao hiệu quả hoạt động của khách hàng. Chúng tôi cũng cung cấp các giải pháp quản lý vận tải thông minh, giúp khách hàng dễ dàng theo dõi và quản lý lộ trình giao nhận hàng hóa của mình.",
+      "detail": "Công ty TNHH DEF là đối tác đáng tin cậy trong lĩnh vực vận tải và logistics. Chúng tôi có kinh nghiệm nhiều năm trong việc vận chuyển hàng hóa, từ nội địa đến quốc tế. Bên cạnh đó, DEF còn cung cấp các dịch vụ tư vấn về quản lý chuỗi cung ứng để giúp khách hàng tối ưu hóa hoạt động logistics của mình. Chất lượng dịch vụ và sự hài lòng của khách hàng là tiêu chí hàng đầu của chúng tôi. Trong tương lai, công ty dự định mở rộng quy mô hoạt động và xây dựng hệ thống logistics thông minh, tích hợp với công nghệ hiện đại để nâng cao hiệu suất."
+    },
+    {
+      "companyName": "FPT",
+      "email": "dd4554591@gmail.com",
+      "phone": "0969381280",
+      "password": "0912168266D",
+      "city": "Hà Nội",
+      "address": "thôn Thái Hòa xã Bình Phú huyện Thạch Thất thành phố Hà Nội",
+      "website": "https://fpt.com/vi",
+      "passwquantityPeopleord": 10000,
+      "id": 4
+    }
+  ],
+  "citys": [
+    {
+      "id": 1,
+      "name": "Hà Nội"
+    },
+    {
+      "id": 2,
+      "name": "Hồ Chí Minh"
+    },
+    {
+      "id": 3,
+      "name": "Đà Nẵng"
+    }
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "name": "JavaScript"
+    },
+    {
+      "id": 2,
+      "name": "Java"
+    },
+    {
+      "id": 3,
+      "name": "Python"
+    },
+    {
+      "id": 4,
+      "name": "C#"
+    },
+    {
+      "id": 5,
+      "name": "Ruby"
+    },
+    {
+      "id": 6,
+      "name": "PHP"
+    },
+    {
+      "id": 7,
+      "name": "C++"
+    },
+    {
+      "id": 8,
+      "name": "Swift"
+    },
+    {
+      "id": 9,
+      "name": "Go"
+    },
+    {
+      "id": 10,
+      "name": "TypeScript"
+    },
+    {
+      "id": 11,
+      "name": "Kotlin"
+    },
+    {
+      "id": 12,
+      "name": "SQL"
+    },
+    {
+      "id": 13,
+      "name": "MySQL"
+    },
+    {
+      "id": 14,
+      "name": "React"
+    },
+    {
+      "id": 15,
+      "name": "Angular"
+    },
+    {
+      "id": 16,
+      "name": "Vue"
+    },
+    {
+      "id": 17,
+      "name": "React Native"
+    },
+    {
+      "id": 18,
+      "name": "Kotlin"
+    },
+    {
+      "id": 19,
+      "name": "Spring Boot"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 1,
+      "idCompany": 1,
+      "name": "Frontend Developer",
+      "tags": ["JavaScript", "React", "CSS"],
+      "salary": "1200-1500",
+      "description": {
+        "responsibilities": [
+          "Chịu trách nhiệm phát triển giao diện người dùng cho các ứng dụng web, đảm bảo trải nghiệm người dùng mượt mà và trực quan.",
+          "Thực hiện tối ưu hóa hiệu suất của giao diện bằng cách sử dụng React và các kỹ thuật CSS hiện đại.",
+          "Cộng tác với đội ngũ thiết kế để triển khai giao diện đáp ứng, tối ưu hóa cho cả máy tính để bàn và thiết bị di động.",
+          "Tham gia vào các buổi họp để trao đổi ý tưởng và đảm bảo sự nhất quán trong giao diện.",
+          "Viết tài liệu kỹ thuật cho mã nguồn và các tính năng đã phát triển."
+        ],
+        "skills": [
+          "Tốt nghiệp Đại học Công nghệ thông tin, Khoa học máy tính.",
+          "Ít nhất 2 năm kinh nghiệm trong phát triển ứng dụng web với React.",
+          "Kiến thức vững về HTML, CSS, JavaScript và các công nghệ frontend khác.",
+          "Kinh nghiệm với công cụ quản lý mã nguồn như Git."
+        ],
+        "benefits": [
+          "Gói thu nhập từ 15 đến 18 tháng lương/năm.",
+          "Giờ làm việc linh hoạt, trang phục thoải mái.",
+          "Cơ hội tham gia các khóa đào tạo nâng cao kỹ năng chuyên môn.",
+          "Chương trình thưởng cho ý tưởng sáng tạo."
+        ]
+      },
+      "status": true,
+      "createAt": "15-10-2024 21:22:17",
+      "updateAt": "30-04-2023 14:12:25"
+    },
+    {
+      "id": 2,
+      "idCompany": 2,
+      "name": "Backend Developer",
+      "tags": ["Java", "Spring Boot", "MySQL"],
+      "salary": "1500-1800",
+      "description": {
+        "responsibilities": [
+          "Phát triển và duy trì các dịch vụ backend quan trọng, bảo đảm tính ổn định và hiệu suất của hệ thống.",
+          "Thiết kế và xây dựng các API RESTful.",
+          "Quản lý cơ sở dữ liệu và tối ưu hóa truy vấn với MySQL.",
+          "Phối hợp với các đội ngũ frontend và DevOps để triển khai các tính năng mới.",
+          "Thực hiện kiểm tra và đảm bảo chất lượng mã nguồn."
+        ],
+        "skills": [
+          "Tốt nghiệp Đại học Công nghệ thông tin, Khoa học máy tính.",
+          "Ít nhất 4 năm lập trình ngôn ngữ Java/Python/Scala.",
+          "Có kinh nghiệm làm việc với Spring Boot và xây dựng API.",
+          "Kiến thức vững về cơ sở dữ liệu quan hệ và không quan hệ."
+        ],
+        "benefits": [
+          "Gói thu nhập hấp dẫn với nhiều phúc lợi.",
+          "Cơ hội phát triển nghề nghiệp trong môi trường năng động.",
+          "Tham gia vào các dự án lớn với giá trị đầu tư cao."
+        ]
+      },
+      "status": true,
+      "createAt": "14-11-2023 09:35:10",
+      "updateAt": "16-05-2024 10:45:00"
+    },
+    {
+      "id": 3,
+      "idCompany": 3,
+      "name": "Data Scientist",
+      "tags": ["Python", "R", "Machine Learning"],
+      "salary": "2000-2500",
+      "description": {
+        "responsibilities": [
+          "Sử dụng các công cụ phân tích dữ liệu để trích xuất thông tin quan trọng.",
+          "Phát triển và tối ưu hóa các mô hình học máy.",
+          "Làm việc với các nhóm chức năng chéo để giải thích các mô hình.",
+          "Cung cấp thông tin và phân tích hỗ trợ quyết định kinh doanh.",
+          "Tham gia vào việc cải tiến quy trình thu thập và xử lý dữ liệu."
+        ],
+        "skills": [
+          "Tốt nghiệp Đại học trong lĩnh vực công nghệ thông tin, toán học hoặc thống kê.",
+          "Có kinh nghiệm với Python và các thư viện như Pandas, NumPy, scikit-learn.",
+          "Kinh nghiệm với các công cụ trực quan hóa dữ liệu như Tableau hoặc Power BI.",
+          "Kiến thức về học máy và thống kê."
+        ],
+        "benefits": [
+          "Tham gia vào các dự án lớn với giá trị đầu tư cao.",
+          "Cơ hội nâng cao kỹ năng qua các khóa đào tạo chuyên sâu.",
+          "Môi trường làm việc sáng tạo và thân thiện."
+        ]
+      },
+      "status": true,
+      "createAt": "01-06-2023 08:10:45",
+      "updateAt": "05-06-2023 11:22:30"
+    },
+    {
+      "id": 4,
+      "idCompany": 1,
+      "name": "Mobile Developer",
+      "tags": ["Kotlin", "Swift", "React Native"],
+      "salary": "1400-1700",
+      "description": {
+        "responsibilities": [
+          "Phát triển và tối ưu hóa các ứng dụng di động trên nền tảng iOS và Android.",
+          "Cộng tác với nhóm thiết kế để triển khai giao diện người dùng thân thiện.",
+          "Thực hiện kiểm tra và sửa lỗi trong ứng dụng di động.",
+          "Nghiên cứu và áp dụng các công nghệ mới trong phát triển di động.",
+          "Viết tài liệu kỹ thuật và hướng dẫn sử dụng cho người dùng."
+        ],
+        "skills": [
+          "Tốt nghiệp Đại học Công nghệ thông tin.",
+          "Có kinh nghiệm phát triển ứng dụng di động với Kotlin và Swift.",
+          "Kinh nghiệm với React Native là một lợi thế.",
+          "Kiến thức về UI/UX và thiết kế ứng dụng."
+        ],
+        "benefits": [
+          "Gói thu nhập cạnh tranh và phúc lợi hấp dẫn.",
+          "Môi trường làm việc linh hoạt và sáng tạo.",
+          "Cơ hội tham gia vào các dự án đổi mới công nghệ."
+        ]
+      },
+      "status": true,
+      "createAt": "10-07-2023 16:22:11",
+      "updateAt": "12-07-2023 09:00:00"
+    }
+  ],
+  "cvs": [
+    {
+      "id": 1,
+      "idCompany": 1,
+      "idJob": 1,
+      "name": "Nguyễn Văn A",
+      "phone": "0123456789",
+      "email": "nguyenvana@example.com",
+      "introduction": "Tôi là một lập trình viên Frontend với 3 năm kinh nghiệm phát triển các ứng dụng web.",
+      "statusRead": false,
+      "createAt": "29-04-2023 21:22:17"
+    },
+    {
+      "id": 2,
+      "idCompany": 2,
+      "idJob": 2,
+      "name": "Trần Thị B",
+      "phone": "0987654321",
+      "email": "tranthib@example.com",
+      "introduction": "Tôi có kinh nghiệm 5 năm làm việc với hệ thống backend và cơ sở dữ liệu.",
+      "statusRead": true,
+      "createAt": "15-03-2023 09:35:10"
+    },
+    {
+      "cvFile": "C:\\fakepath\\MyCV.pdf",
+      "idJob": 1,
+      "idCompany": 1,
+      "name": "Nguyen Xuan Duong",
+      "phone": "0969381280",
+      "email": "nguyenvana@gmail.com",
+      "introduction": "dsadasda",
+      "statusRead": false,
+      "createAt": "23-10-2024 20:35:12",
+      "idUser": null,
+      "id": 3
+    },
+    {
+      "cvFile": "C:\\fakepath\\CV_Nguyen_Le_Van_Khai (1).pdf",
+      "idJob": 3,
+      "idCompany": 3,
+      "name": "Nguyen Xuan Duong",
+      "phone": "0969381280",
+      "email": "nguyenvana@gmail.com",
+      "introduction": "đâsdas",
+      "statusRead": false,
+      "createAt": "23-10-2024 20:37:40",
+      "idUser": null,
+      "id": 4
+    },
+    {
+      "cvFile": "C:\\fakepath\\CV_Nguyen_Le_Van_Khai (1).pdf",
+      "idJob": 3,
+      "idCompany": 3,
+      "name": "Nguyen Xuan Duong",
+      "phone": "0969381280",
+      "email": "nguyenvana@gmail.com",
+      "introduction": "đâsdas",
+      "statusRead": false,
+      "createAt": "23-10-2024 20:39:25",
+      "idUser": null,
+      "id": 5
+    },
+    {
+      "cvPDF": "https://lh3.googleusercontent.com/d/1ZSiE3x_yhbwk8JQCUtpFWU46AeUH_gmX",
+      "idJob": 3,
+      "idCompany": 3,
+      "name": "Nguyen Xuan Duong",
+      "phone": "0969381280",
+      "email": "nguyenvana@gmail.com",
+      "cvFile": "C:\\fakepath\\NguyenXuanDuong.pdf",
+      "introduction": "đâsdas",
+      "statusRead": false,
+      "createAt": "23-10-2024 20:40:47",
+      "idUser": null,
+      "id": 6
+    },
+    {
+      "cvPDF": "https://lh3.googleusercontent.com/d/1mOIieCUj1QGdF-2MTQ5Xfgi9mPiKbxf3",
+      "idJob": 3,
+      "idCompany": 3,
+      "name": "Nguyen Xuan Duong",
+      "phone": "0969381280",
+      "email": "nguyenvana@gmail.com",
+      "introduction": "đâsdasdasd",
+      "statusRead": false,
+      "createAt": "23-10-2024 20:41:53",
+      "idUser": null,
+      "id": 7
+    },
+    {
+      "cvPDF": "https://lh3.googleusercontent.com/d/1fsAN3s5ApVXyCmdouNZ9xFrkexk9uula",
+      "idJob": 2,
+      "idCompany": 2,
+      "name": "Nguyen Xuan Duong",
+      "phone": "0969381280",
+      "email": "nguyenvana@gmail.com",
+      "introduction": "đâsdsd",
+      "statusRead": false,
+      "createAt": "23-10-2024 20:44:05",
+      "idUser": "",
+      "id": 8
+    },
+    {
+      "cvPDF": "https://lh3.googleusercontent.com/d/19_npNUKFOMdTdjq_FqLLHLkkucvC-C6K",
+      "idJob": 2,
+      "idCompany": 2,
+      "name": "Nguyen Xuan Duong",
+      "phone": "0969381280",
+      "email": "nguyenvana@gmail.com",
+      "introduction": "đâsdsd",
+      "statusRead": false,
+      "createAt": "23-10-2024 20:45:15",
+      "idUser": null,
+      "id": 9
+    },
+    {
+      "cvPDF": "https://lh3.googleusercontent.com/d/1aYOqbp2BytRVaocyaZEWTWPinT13gkLT",
+      "idJob": 2,
+      "idCompany": 2,
+      "name": "Nguyen Xuan Duong",
+      "phone": "0969381280",
+      "email": "nguyenvana@gmail.com",
+      "introduction": "đâs",
+      "statusRead": false,
+      "createAt": "23-10-2024 20:47:24",
+      "idUser": 1,
+      "id": 10
+    },
+    {
+      "cvPDF": "https://lh3.googleusercontent.com/d/1bKvcb5DJVzQ8OKj2U_i-h9YQIxZYiJCl",
+      "idJob": 2,
+      "idCompany": 2,
+      "name": "Nguyen Xuan Duong",
+      "phone": "0969381280",
+      "email": "nguyenvana@gmail.com",
+      "introduction": "đâs",
+      "statusRead": false,
+      "createAt": "23-10-2024 20:54:54",
+      "idUser": 1,
+      "id": 11
+    },
+    {
+      "cvPDF": "https://lh3.googleusercontent.com/d/1vqpb5B6D_k39IXee-DKhdbYG0S6GuwFZ",
+      "idJob": 2,
+      "idCompany": 2,
+      "name": "Nguyen Xuan Duong",
+      "phone": "0969381280",
+      "email": "nguyenvana@gmail.com",
+      "introduction": "đâs",
+      "statusRead": false,
+      "createAt": "23-10-2024 21:17:33",
+      "idUser": 1,
+      "id": 12
+    },
+    {
+      "cvPDF": "https://lh3.googleusercontent.com/d/1nm4Ye4AKcH0iM6mJsrOxHgKUsRiV2_nB",
+      "idJob": 2,
+      "idCompany": 2,
+      "name": "Nguyen Xuan Duong",
+      "phone": "0969381280",
+      "email": "nguyenvana@gmail.com",
+      "introduction": "đâs",
+      "statusRead": false,
+      "createAt": "23-10-2024 21:18:44",
+      "idUser": 1,
+      "id": 13
+    },
+    {
+      "cvPDF": "https://lh3.googleusercontent.com/d/1PeaFyIwyCphm-OwD5TYIuzYkzxHL758A",
+      "idJob": 2,
+      "idCompany": 2,
+      "name": "Nguyen Xuan Duong",
+      "phone": "0969381280",
+      "email": "nguyenvana@gmail.com",
+      "introduction": "313123123",
+      "statusRead": false,
+      "createAt": "23-10-2024 21:20:26",
+      "idUser": 1,
+      "id": 14
+    },
+    {
+      "cvPDF": "https://drive.google.com/file/d/14F-IUrkweXjy1k7lcSXdmZ7wIb0dwxP-/preview",
+      "idJob": 2,
+      "idCompany": 2,
+      "name": "Nguyen Xuan Duong",
+      "phone": "0969381280",
+      "email": "nguyenvana@gmail.com",
+      "introduction": "313123123",
+      "statusRead": false,
+      "createAt": "23-10-2024 21:22:32",
+      "idUser": 1,
+      "id": 15
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+.search-item {
+    border-radius: 5px;
+    border: 1.5px solid #1777ff;
+    border-bottom: 5px solid #1777ff;
+    transition: all 0.1s ease-in;
+    cursor: pointer;
+    &:hover {
+        background-color: rgba(23, 119, 255, 0.1);
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        transform: scale(1.002);
+    }
+}
+.infor {
+    &__company-name {
+        color: rgb(66, 66, 66);
+        font-weight: 500;
+        margin: 0rem 0rem 0.5rem 0.7rem;
+    }
+    &__job-name {
+        color: #1777ff;
+        font-weight: 700;
+        margin: 1rem 0rem 0.5rem 0.7rem;
+    }
+    &__salary {
+        color: #1777ff;
+        opacity: 0.8;
+        margin: 0rem 0rem 0.5rem 0.7rem;
+    }
+    &__address {
+        color: rgb(66, 66, 66);
+        font-weight: 500;
+        margin: 0rem 0rem 0.5rem 0.7rem;
+    }
+    &__tag {
+        margin: 0rem 0rem 0.5rem 0.7rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__time {
+        padding-right: 1rem;
+    }
+}

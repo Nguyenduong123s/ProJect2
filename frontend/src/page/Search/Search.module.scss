@@ -1,0 +1,17 @@
+.search {
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.title {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 4rem;
+    align-items: center;
+    p {
+        color: #1777ff;
+        margin-right: 0.5rem;
+    }
+    &__tag {
+        margin-left: 0.5rem;
+    }
+}
