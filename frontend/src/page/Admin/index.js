@@ -17,7 +17,7 @@ import { logout } from '../../action/login';
 import { useDispatch } from 'react-redux';
 import { Link } from 'react-router-dom';
 const { useBreakpoint } = Grid;
-const { Header, Sider, Content } = Layout;
+const { Sider, Content } = Layout;
 const items = [
     {
         key: 'sub1',
@@ -26,7 +26,7 @@ const items = [
     },
     {
         key: 'sub2',
-        label: <Link>Thông tin công ty</Link>,
+        label: <Link to="/admin/infor">Thông tin công ty</Link>,
         icon: <UserOutlined />,
     },
     {
@@ -59,16 +59,25 @@ function Admin() {
         }
     }, []);
     return (
-        <Layout>
-            <Sider collapsedWidth={screens.lg ? '80' : '0'} collapsed={collapsed} className={clsx(styles.sider)}>
-                <div className={clsx(styles['sider__logo'], collapsed && styles['sider__logo--collapse'])}>
+        <Layout style={{ display: 'flex' }}>
+            <header className={clsx(styles.header)}>
+                <div
+                    className={clsx(
+                        styles['header__logo'],
+                        collapsed && styles['header__logo--collapse'],
+                        !screens.lg && collapsed && styles['header__logo--responsive'],
+                        !screens.lg && !collapsed && styles['header__logo--responsiveWidth'],
+                    )}
+                >
                     IT Admin
                 </div>
-                <Menu defaultSelectedKeys={['sub1']} items={items} />
-            </Sider>
-            <Layout>
-                <header className={clsx(styles.header)}>
-                    <div className={clsx(styles['header__collapse'])}>
+                <div className={clsx(styles['header__menu'])}>
+                    <div
+                        className={clsx(
+                            styles['header__collapse'],
+                            !screens.lg && !collapsed && styles['header__collapse--responsive'],
+                        )}
+                    >
                         <Button onClick={handleCollapse} type="text" shape="circle">
                             {collapsed ? <MenuUnfoldOutlined /> : <MenuFoldOutlined />}
                         </Button>
@@ -78,7 +87,17 @@ function Admin() {
                             Đăng xuất
                         </Button>
                     </div>
-                </header>
+                </div>
+            </header>
+            <Layout>
+                <Sider
+                    width={screens.lg ? '200' : '160'}
+                    collapsedWidth={screens.lg ? '80' : '0'}
+                    collapsed={collapsed}
+                    className={clsx(styles.sider, !screens.lg && styles['sider--responsive'])}
+                >
+                    <Menu defaultSelectedKeys={['sub1']} items={items} />
+                </Sider>
                 <Content className={clsx(styles.content)}>
                     <Outlet />
                 </Content>

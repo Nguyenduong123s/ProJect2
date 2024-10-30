@@ -1,3 +1,16 @@
+.title {
+    margin: 2rem 0 1rem 2rem;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #1777ff;
+}
 .card {
-    margin-top: 2.5rem;
+    width: 95%;
+    padding-bottom: 30px;
+    margin: auto !important;
+    &__item {
+        p {
+            font-size: 1.1rem;
+        }
+    }
 }

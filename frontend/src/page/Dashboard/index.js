@@ -5,18 +5,25 @@ import { useEffect, useState } from 'react';
 import { getCookie } from '../../cookies';
 import { useNavigate } from 'react-router-dom';
 import { getTotalJob } from '../../services/JobServices';
+import { getTotalCV } from '../../services/CVServices';
+import { getCompanyById } from '../../services/CompanyService';
 function Dashboard() {
     const [jobQuantity, setJobQuantity] = useState({});
+    const [cvQuantity, setCvQuantity] = useState({});
+    const [company, setCompany] = useState({});
     const navigate = useNavigate();
-    console.log(jobQuantity);
     useEffect(() => {
         const idCompany = parseInt(getCookie('id'));
         if (!idCompany) {
             navigate('/');
         } else {
             const fetchApi = async (idCompany) => {
-                const res = await getTotalJob(idCompany);
-                setJobQuantity(res);
+                const responeJob = await getTotalJob(idCompany);
+                const responeCV = await getTotalCV(idCompany);
+                const responeCompany = await getCompanyById(idCompany);
+                setCompany(responeCompany);
+                setJobQuantity(responeJob);
+                setCvQuantity(responeCV);
             };
             fetchApi(idCompany);
         }
@@ -24,9 +31,9 @@ function Dashboard() {
     return (
         <>
             <div className={clsx(styles.title)}>Tổng quan</div>
-            <Row justify="space-around" className={clsx(styles.card)}>
-                <Col span={7}>
-                    <Card title="Job">
+            <Row gutter={[30, 30]} className={clsx(styles.card)}>
+                <Col xxl={8} xl={8} lg={12} md={12} sm={24} xs={24}>
+                    <Card title="Job" className={clsx(styles['card__item'])}>
                         <p>
                             Số lượng job : <b>{jobQuantity.totalJob}</b>
                         </p>
@@ -38,29 +45,29 @@ function Dashboard() {
                         </p>
                     </Card>
                 </Col>
-                <Col span={7}>
-                    <Card title="CV">
+                <Col xxl={8} xl={8} lg={12} md={12} sm={24} xs={24}>
+                    <Card title="CV" className={clsx(styles['card__item'])}>
                         <p>
-                            Số lượng CV : <b>6</b>
+                            Số lượng cv : <b>{cvQuantity.totalCv}</b>
                         </p>
                         <p>
-                            CV đã đọc : <b>5</b>
+                            Cv đang bật : <b>{cvQuantity.cvOn}</b>
                         </p>
                         <p>
-                            CV chưa đọc : <b>1</b>
+                            Cv đang tắt : <b>{cvQuantity.cvOff}</b>
                         </p>
                     </Card>
                 </Col>
-                <Col span={7}>
-                    <Card title="Thông tin công ty" span={7}>
+                <Col xxl={8} xl={8} lg={12} md={12} sm={24} xs={24}>
+                    <Card title="Thông tin công ty" className={clsx(styles['card__item'])}>
                         <p>
-                            Tên công ty : <b>6</b>
+                            Tên công ty : <b>{company.companyName}</b>
                         </p>
                         <p>
-                            Email : <b>5</b>
+                            Email : <b>{company.email}</b>
                         </p>
                         <p>
-                            Số diện thoại : <b>1</b>
+                            Số diện thoại : <b>{company.phone}</b>
                         </p>
                     </Card>
                 </Col>

@@ -19,15 +19,15 @@
     {
       "id": 1,
       "companyName": "Công ty TNHH ABC",
-      "phone": "0123456789",
+      "phone": "0912168266",
       "email": "contact@abc.com",
       "password": "Password123",
       "token": "abc-token-123",
       "city": "Đà Nẵng",
       "address": "123 Đường ABC, Quận 1, TP. Hồ Chí Minh",
-      "workingTime": "08:00 - 17:00",
+      "workingTime": "08:00-18:00",
       "website": "https://abc.com",
-      "quantityPeople": 100,
+      "quantityPeople": 200,
       "description": "Công ty TNHH ABC chuyên về công nghệ thông tin, cung cấp giải pháp phần mềm và các dịch vụ IT cho khách hàng trên toàn cầu. Chúng tôi không chỉ mang lại những sản phẩm chất lượng cao mà còn xây dựng mối quan hệ lâu dài với khách hàng. Với đội ngũ kỹ sư giàu kinh nghiệm, công ty ABC luôn cam kết mang lại những giải pháp sáng tạo, cải tiến liên tục để đáp ứng nhu cầu ngày càng tăng của thị trường. Mục tiêu của chúng tôi là tối ưu hóa quy trình công nghệ, đồng thời cung cấp dịch vụ hỗ trợ tận tình, chuyên nghiệp.",
       "detail": "Công ty TNHH ABC là đơn vị tiên phong trong lĩnh vực phát triển phần mềm, với nhiều năm kinh nghiệm và đội ngũ nhân sự chuyên nghiệp. Chúng tôi chuyên cung cấp các dịch vụ phát triển ứng dụng di động, trang web, và các hệ thống quản lý doanh nghiệp. Ngoài ra, ABC còn hỗ trợ tư vấn công nghệ để giúp khách hàng có giải pháp tối ưu nhất trong việc quản lý và vận hành doanh nghiệp. Sự uy tín và cam kết về chất lượng là giá trị cốt lõi của chúng tôi, cùng với tầm nhìn phát triển mạnh mẽ trong tương lai."
     },
@@ -40,7 +40,7 @@
       "token": "xyz-token-456",
       "city": "Hồ Chí Minh",
       "address": "456 Đường XYZ, Quận 2, TP. Hồ Chí Minh",
-      "workingTime": "09:00 - 18:00",
+      "workingTime": "09:00-18:00",
       "website": "https://xyz.com",
       "quantityPeople": 200,
       "description": "Công ty Cổ phần XYZ là một trong những doanh nghiệp hàng đầu trong lĩnh vực sản xuất và cung cấp thiết bị điện tử. Với đội ngũ nhân viên chuyên nghiệp và nhà máy sản xuất hiện đại, chúng tôi đã xây dựng được uy tín trên thị trường trong nhiều năm qua. Các sản phẩm của công ty luôn đảm bảo chất lượng cao, đáp ứng đầy đủ các tiêu chuẩn quốc tế. Công ty XYZ luôn chú trọng đến việc nghiên cứu và phát triển để tạo ra những sản phẩm tiên tiến, giúp khách hàng tối ưu hóa hiệu suất sử dụng thiết bị điện tử.",
@@ -55,7 +55,7 @@
       "token": "def-token-789",
       "city": "Hà Nội",
       "address": "789 Đường DEF, Quận 3, TP. Hồ Chí Minh",
-      "workingTime": "07:30 - 16:30",
+      "workingTime": "07:30-16:30",
       "website": "https://def.com",
       "quantityPeople": 50,
       "description": "Công ty TNHH DEF chuyên cung cấp dịch vụ vận tải và logistics cho các doanh nghiệp và khách hàng cá nhân. Với hệ thống vận chuyển đa dạng và đội ngũ lái xe chuyên nghiệp, chúng tôi đảm bảo giao hàng đúng thời gian, an toàn và tiết kiệm chi phí. Công ty DEF luôn hướng đến việc tối ưu hóa quy trình vận tải, từ đó nâng cao hiệu quả hoạt động của khách hàng. Chúng tôi cũng cung cấp các giải pháp quản lý vận tải thông minh, giúp khách hàng dễ dàng theo dõi và quản lý lộ trình giao nhận hàng hóa của mình.",
@@ -170,7 +170,11 @@
       "id": 1,
       "idCompany": 1,
       "name": "Frontend Developer",
-      "tags": ["JavaScript", "React", "CSS"],
+      "tags": [
+        "JavaScript",
+        "React",
+        "CSS"
+      ],
       "salary": "1200-1500",
       "description": {
         "responsibilities": [
@@ -201,7 +205,11 @@
       "id": 2,
       "idCompany": 2,
       "name": "Backend Developer",
-      "tags": ["Java", "Spring Boot", "MySQL"],
+      "tags": [
+        "Java",
+        "Spring Boot",
+        "MySQL"
+      ],
       "salary": "1500-1800",
       "description": {
         "responsibilities": [
@@ -231,7 +239,11 @@
       "id": 3,
       "idCompany": 3,
       "name": "Data Scientist",
-      "tags": ["Python", "R", "Machine Learning"],
+      "tags": [
+        "Python",
+        "R",
+        "Machine Learning"
+      ],
       "salary": "2000-2500",
       "description": {
         "responsibilities": [
@@ -261,7 +273,11 @@
       "id": 4,
       "idCompany": 1,
       "name": "Mobile Developer",
-      "tags": ["Kotlin", "Swift", "React Native"],
+      "tags": [
+        "Kotlin",
+        "Swift",
+        "React Native"
+      ],
       "salary": "1400-1700",
       "description": {
         "responsibilities": [

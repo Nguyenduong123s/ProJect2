@@ -1,4 +1,4 @@
-import { get } from '../untils/request';
+import { get, update } from '../untils/request';
 export const getCompanyById = async (id) => {
     const res = await get('companys');
     const result = res.find((res) => res.id == id);
@@ -25,4 +25,8 @@ export const checkLoginCompany = async (email, password) => {
             };
         }
     }
+};
+export const updateCompany = async (value, id) => {
+    const res = update('companys', id, value);
+    return res;
 };

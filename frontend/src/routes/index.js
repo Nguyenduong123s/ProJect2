@@ -6,6 +6,7 @@ import Register from '../page/Register';
 import DetailJob from '../page/DetailJob';
 import Admin from '../page/Admin';
 import Dashboard from '../page/Dashboard';
+import Infor from '../page/Infor';
 
 const routes = [
     {
@@ -41,8 +42,12 @@ const routes = [
         element: <Admin />,
         children: [
             {
-                path: '/admin',
+                path: '',
                 element: <Dashboard />,
+            },
+            {
+                path: 'infor',
+                element: <Infor />,
             },
         ],
     },

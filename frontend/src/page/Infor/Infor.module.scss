@@ -1,0 +1,27 @@
+.header {
+    width: 95%;
+    margin-top: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &__title {
+        font-weight: 400;
+        font-size: 1.2rem;
+        color: #1777ff;
+    }
+}
+.body {
+    width: 95%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.text {
+    &__description {
+        height: 7rem !important;
+    }
+    &__detail {
+        height: 8rem !important;
+    }
+}
