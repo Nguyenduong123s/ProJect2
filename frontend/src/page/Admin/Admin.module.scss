@@ -1,35 +1,8 @@
 .sider {
     background-color: white;
-    height: 100vh;
-    margin-top: 3.5rem;
-    max-height: calc(100vh - 3.5rem);
-    transition: all 0.1s ease-in;
-    &--responsive {
-        position: fixed;
-        z-index: 1;
-        top: 0;
-    }
-}
-.header {
-    width: 100%;
-    background-color: white;
-    border-bottom: 1px solid #edf2f9;
-    height: 3.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: fixed;
-    top: 0;
-    z-index: 1;
-    &__menu {
-        flex: 1;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
+    z-index: 10;
     &__logo {
-        transition: all 0.1s ease-in;
-        width: 200px;
+        width: 100%;
         line-height: 3.5rem;
         text-align: center;
         border-bottom: 1px solid #edf2f9;
@@ -41,24 +14,26 @@
             width: 80px;
             font-size: 1rem;
         }
-        &--responsive {
-            visibility: hidden;
-            width: 0px;
-        }
-        &--responsiveWidth {
-            width: 160px !important;
-        }
     }
+    &--responsive {
+        height: 100vh;
+        position: fixed;
+        top: 0;
+    }
+}
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 3.5rem;
+    background-color: white;
     &__collapse {
         width: 0;
         margin-left: 1rem;
+        font-size: 1.2rem;
         &--responsive {
-            button {
-                flex: 1;
-            }
-        }
-        button {
-            font-size: 1.1rem;
+            margin-left: 170px;
         }
     }
     &__logout {
@@ -66,6 +41,6 @@
     }
 }
 .content {
-    min-height: calc(100vh - 3.5rem);
-    margin-top: 3.5rem;
+    height: calc(100vh - 3.5rem);
+    overflow-y: auto;
 }

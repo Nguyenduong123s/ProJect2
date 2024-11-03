@@ -46,6 +46,7 @@ function Home() {
             };
             const fetchApiTag = async () => {
                 const res = await getTags();
+                console.log(res);
                 const result = res.map((tag) => ({
                     value: tag.name,
                     key: `tag-${tag.id + 1}`,

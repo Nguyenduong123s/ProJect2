@@ -18,7 +18,6 @@ function Infor() {
         setDisabled(!disabled);
     };
     const handleSubmit = async (e) => {
-        console.log(update);
         setLoading(true);
         const time = e.workingTime;
         const idComapny = parseInt(getCookie('id'));
@@ -38,6 +37,7 @@ function Infor() {
             message.error('Cập nhập thất bại !');
         }
         setLoading(false);
+        setDisabled(true);
     };
     useEffect(() => {
         const idComapny = parseInt(getCookie('id'));

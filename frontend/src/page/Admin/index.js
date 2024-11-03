@@ -31,7 +31,7 @@ const items = [
     },
     {
         key: 'sub3',
-        label: <Link>Quản lý việc làm</Link>,
+        label: <Link to="/admin/job-manage">Quản lý việc làm</Link>,
         icon: <UnorderedListOutlined />,
     },
     {
@@ -60,44 +60,34 @@ function Admin() {
     }, []);
     return (
         <Layout style={{ display: 'flex' }}>
-            <header className={clsx(styles.header)}>
-                <div
-                    className={clsx(
-                        styles['header__logo'],
-                        collapsed && styles['header__logo--collapse'],
-                        !screens.lg && collapsed && styles['header__logo--responsive'],
-                        !screens.lg && !collapsed && styles['header__logo--responsiveWidth'],
-                    )}
-                >
+            <Sider
+                width={screens.lg ? '200' : '160'}
+                collapsedWidth={screens.lg ? '80' : '0'}
+                collapsed={collapsed}
+                className={clsx(styles.sider, !screens.lg && !collapsed && styles['sider--responsive'])}
+            >
+                <div className={clsx(styles['sider__logo'], collapsed && styles['sider__logo--collapse'])}>
                     IT Admin
                 </div>
-                <div className={clsx(styles['header__menu'])}>
-                    <div
+                <Menu defaultSelectedKeys={['sub1']} items={items} />
+            </Sider>
+            <Layout>
+                <header className={clsx(styles.header)}>
+                    <Button
+                        onClick={handleCollapse}
+                        type="text"
+                        shape="circle"
                         className={clsx(
                             styles['header__collapse'],
                             !screens.lg && !collapsed && styles['header__collapse--responsive'],
                         )}
                     >
-                        <Button onClick={handleCollapse} type="text" shape="circle">
-                            {collapsed ? <MenuUnfoldOutlined /> : <MenuFoldOutlined />}
-                        </Button>
-                    </div>
-                    <div className={clsx(styles['header__logout'])}>
-                        <Button onClick={handleLogout} icon={<LogoutOutlined />}>
-                            Đăng xuất
-                        </Button>
-                    </div>
-                </div>
-            </header>
-            <Layout>
-                <Sider
-                    width={screens.lg ? '200' : '160'}
-                    collapsedWidth={screens.lg ? '80' : '0'}
-                    collapsed={collapsed}
-                    className={clsx(styles.sider, !screens.lg && styles['sider--responsive'])}
-                >
-                    <Menu defaultSelectedKeys={['sub1']} items={items} />
-                </Sider>
+                        {collapsed ? <MenuUnfoldOutlined /> : <MenuFoldOutlined />}
+                    </Button>
+                    <Button onClick={handleLogout} icon={<LogoutOutlined />} className={clsx(styles['header__logout'])}>
+                        Đăng xuất
+                    </Button>
+                </header>
                 <Content className={clsx(styles.content)}>
                     <Outlet />
                 </Content>

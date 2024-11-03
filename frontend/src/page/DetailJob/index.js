@@ -11,7 +11,7 @@ import { getCookie } from '../../cookies';
 import ModalForm from './ModalForm';
 function DetailJob() {
     const params = useParams();
-    const jobId = params.id;
+    const jobId = parseInt(params.id);
     const [job, setJob] = useState({});
     const [company, setCompany] = useState({});
     const navigate = useNavigate();

@@ -25,7 +25,7 @@
       "token": "abc-token-123",
       "city": "Đà Nẵng",
       "address": "123 Đường ABC, Quận 1, TP. Hồ Chí Minh",
-      "workingTime": "08:00-18:00",
+      "workingTime": "08:00-17:00",
       "website": "https://abc.com",
       "quantityPeople": 200,
       "description": "Công ty TNHH ABC chuyên về công nghệ thông tin, cung cấp giải pháp phần mềm và các dịch vụ IT cho khách hàng trên toàn cầu. Chúng tôi không chỉ mang lại những sản phẩm chất lượng cao mà còn xây dựng mối quan hệ lâu dài với khách hàng. Với đội ngũ kỹ sư giàu kinh nghiệm, công ty ABC luôn cam kết mang lại những giải pháp sáng tạo, cải tiến liên tục để đáp ứng nhu cầu ngày càng tăng của thị trường. Mục tiêu của chúng tôi là tối ưu hóa quy trình công nghệ, đồng thời cung cấp dịch vụ hỗ trợ tận tình, chuyên nghiệp.",
@@ -71,20 +71,6 @@
       "website": "https://fpt.com/vi",
       "passwquantityPeopleord": 10000,
       "id": 4
-    }
-  ],
-  "citys": [
-    {
-      "id": 1,
-      "name": "Hà Nội"
-    },
-    {
-      "id": 2,
-      "name": "Hồ Chí Minh"
-    },
-    {
-      "id": 3,
-      "name": "Đà Nẵng"
     }
   ],
   "tags": [
@@ -158,11 +144,69 @@
     },
     {
       "id": 18,
-      "name": "Kotlin"
+      "name": "Spring Boot"
     },
     {
       "id": 19,
-      "name": "Spring Boot"
+      "name": "Django"
+    },
+    {
+      "id": 20,
+      "name": "Flask"
+    },
+    {
+      "id": 21,
+      "name": "Ruby on Rails"
+    },
+    {
+      "id": 22,
+      "name": "Node.js"
+    },
+    {
+      "id": 23,
+      "name": "GraphQL"
+    },
+    {
+      "id": 24,
+      "name": "Redis"
+    },
+    {
+      "id": 25,
+      "name": "Docker"
+    },
+    {
+      "id": 26,
+      "name": "Kubernetes"
+    },
+    {
+      "id": 27,
+      "name": "TensorFlow"
+    },
+    {
+      "id": 28,
+      "name": "Machine Learning"
+    },
+    {
+      "id": 29,
+      "name": "Artificial Intelligence"
+    },
+    {
+      "id": 30,
+      "name": "DevOps"
+    }
+  ],
+  "citys": [
+    {
+      "id": 1,
+      "name": "Hà Nội"
+    },
+    {
+      "id": 2,
+      "name": "Hồ Chí Minh"
+    },
+    {
+      "id": 3,
+      "name": "Đà Nẵng"
     }
   ],
   "jobs": [
@@ -175,7 +219,7 @@
         "React",
         "CSS"
       ],
-      "salary": "1200-1500",
+      "salary": "1200-1600",
       "description": {
         "responsibilities": [
           "Chịu trách nhiệm phát triển giao diện người dùng cho các ứng dụng web, đảm bảo trải nghiệm người dùng mượt mà và trực quan.",
@@ -197,9 +241,28 @@
           "Chương trình thưởng cho ý tưởng sáng tạo."
         ]
       },
-      "status": true,
+      "status": false,
       "createAt": "15-10-2024 21:22:17",
-      "updateAt": "30-04-2023 14:12:25"
+      "updateAt": "03-11-2024 22:47:19",
+      "responsibilities": [
+        "Chịu trách nhiệm phát triển giao diện người dùng cho các ứng dụng web, đảm bảo trải nghiệm người dùng mượt mà và trực quan.",
+        "Thực hiện tối ưu hóa hiệu suất của giao diện bằng cách sử dụng React và các kỹ thuật CSS hiện đại.",
+        "Cộng tác với đội ngũ thiết kế để triển khai giao diện đáp ứng, tối ưu hóa cho cả máy tính để bàn và thiết bị di động.",
+        "Tham gia vào các buổi họp để trao đổi ý tưởng và đảm bảo sự nhất quán trong giao diện.",
+        "Viết tài liệu kỹ thuật cho mã nguồn và các tính năng đã phát triển."
+      ],
+      "skills": [
+        "Tốt nghiệp Đại học Công nghệ thông tin, Khoa học máy tính.",
+        "Ít nhất 2 năm kinh nghiệm trong phát triển ứng dụng web với React.",
+        "Kiến thức vững về HTML, CSS, JavaScript và các công nghệ frontend khác.",
+        "Kinh nghiệm với công cụ quản lý mã nguồn như Git."
+      ],
+      "benefits": [
+        "Gói thu nhập từ 15 đến 18 tháng lương/năm.",
+        "Giờ làm việc linh hoạt, trang phục thoải mái.",
+        "Cơ hội tham gia các khóa đào tạo nâng cao kỹ năng chuyên môn.",
+        "Chương trình thưởng cho ý tưởng sáng tạo."
+      ]
     },
     {
       "id": 2,
@@ -276,9 +339,10 @@
       "tags": [
         "Kotlin",
         "Swift",
-        "React Native"
+        "React Native",
+        "Java"
       ],
-      "salary": "1400-1700",
+      "salary": "1400-1800",
       "description": {
         "responsibilities": [
           "Phát triển và tối ưu hóa các ứng dụng di động trên nền tảng iOS và Android.",
@@ -301,7 +365,440 @@
       },
       "status": true,
       "createAt": "10-07-2023 16:22:11",
-      "updateAt": "12-07-2023 09:00:00"
+      "updateAt": "03-11-2024 22:44:44",
+      "responsibilities": [
+        "Phát triển và tối ưu hóa các ứng dụng di động trên nền tảng iOS và Android.",
+        "Cộng tác với nhóm thiết kế để triển khai giao diện người dùng thân thiện.",
+        "Thực hiện kiểm tra và sửa lỗi trong ứng dụng di động.",
+        "Nghiên cứu và áp dụng các công nghệ mới trong phát triển di động.",
+        "Viết tài liệu kỹ thuật và hướng dẫn sử dụng cho người dùng."
+      ],
+      "skills": [
+        "Tốt nghiệp Đại học Công nghệ thông tin.",
+        "Có kinh nghiệm phát triển ứng dụng di động với Kotlin và Swift.",
+        "Kinh nghiệm với React Native là một lợi thế.",
+        "Kiến thức về UI/UX và thiết kế ứng dụng."
+      ],
+      "benefits": [
+        "Gói thu nhập cạnh tranh và phúc lợi hấp dẫn.",
+        "Môi trường làm việc linh hoạt và sáng tạo.",
+        "Cơ hội tham gia vào các dự án đổi mới công nghệ."
+      ]
+    },
+    {
+      "id": 5,
+      "idCompany": 1,
+      "name": "UI/UX Designer",
+      "tags": [
+        "UI Design",
+        "UX Research",
+        "Figma"
+      ],
+      "salary": "1300-1600",
+      "description": {
+        "responsibilities": [
+          "Thiết kế giao diện người dùng cho các ứng dụng web và di động.",
+          "Thực hiện nghiên cứu người dùng để xác định yêu cầu và nhu cầu.",
+          "Tạo wireframes, prototypes và mockups chi tiết.",
+          "Làm việc chặt chẽ với đội phát triển để đảm bảo tính khả thi của thiết kế."
+        ],
+        "skills": [
+          "Thành thạo các công cụ thiết kế như Figma, Sketch.",
+          "Kiến thức về nguyên lý thiết kế và trải nghiệm người dùng.",
+          "Kỹ năng giao tiếp tốt và khả năng làm việc theo nhóm."
+        ],
+        "benefits": [
+          "Cơ hội làm việc trong môi trường sáng tạo.",
+          "Lương thưởng hấp dẫn và các phúc lợi đầy đủ.",
+          "Tham gia các khóa đào tạo nâng cao kỹ năng thiết kế."
+        ]
+      },
+      "status": false,
+      "createAt": "01-11-2024 09:30:00",
+      "updateAt": "03-11-2024 22:44:56",
+      "responsibilities": [
+        "Thiết kế giao diện người dùng cho các ứng dụng web và di động.",
+        "Thực hiện nghiên cứu người dùng để xác định yêu cầu và nhu cầu.",
+        "Tạo wireframes, prototypes và mockups chi tiết.",
+        "Làm việc chặt chẽ với đội phát triển để đảm bảo tính khả thi của thiết kế."
+      ],
+      "skills": [
+        "Thành thạo các công cụ thiết kế như Figma, Sketch.",
+        "Kiến thức về nguyên lý thiết kế và trải nghiệm người dùng.",
+        "Kỹ năng giao tiếp tốt và khả năng làm việc theo nhóm."
+      ],
+      "benefits": [
+        "Cơ hội làm việc trong môi trường sáng tạo.",
+        "Lương thưởng hấp dẫn và các phúc lợi đầy đủ.",
+        "Tham gia các khóa đào tạo nâng cao kỹ năng thiết kế."
+      ]
+    },
+    {
+      "id": 6,
+      "idCompany": 1,
+      "name": "DevOps Engineer",
+      "tags": [
+        "CI/CD",
+        "Docker",
+        "Kubernetes"
+      ],
+      "salary": "1800-2200",
+      "description": {
+        "responsibilities": [
+          "Xây dựng và duy trì hệ thống CI/CD để tự động hóa quá trình triển khai.",
+          "Quản lý và tối ưu hóa các container bằng Docker và Kubernetes.",
+          "Giám sát và tối ưu hóa hiệu suất hệ thống.",
+          "Làm việc chặt chẽ với các đội phát triển và vận hành."
+        ],
+        "skills": [
+          "Kinh nghiệm làm việc với Docker và Kubernetes.",
+          "Hiểu biết về các công cụ CI/CD như Jenkins, GitLab.",
+          "Kỹ năng lập trình cơ bản với Shell, Python hoặc Go."
+        ],
+        "benefits": [
+          "Môi trường làm việc thân thiện và linh hoạt.",
+          "Lương thưởng và phúc lợi hấp dẫn.",
+          "Cơ hội học hỏi và tham gia vào các dự án công nghệ tiên tiến."
+        ]
+      },
+      "status": true,
+      "createAt": "01-11-2024 09:40:00",
+      "updateAt": "03-11-2024 22:53:49",
+      "responsibilities": [
+        "Xây dựng và duy trì hệ thống CI/CD để tự động hóa quá trình triển khai.",
+        "Quản lý và tối ưu hóa các container bằng Docker và Kubernetes.",
+        "Giám sát và tối ưu hóa hiệu suất hệ thống.",
+        "Làm việc chặt chẽ với các đội phát triển và vận hành."
+      ],
+      "skills": [
+        "Kinh nghiệm làm việc với Docker và Kubernetes.",
+        "Hiểu biết về các công cụ CI/CD như Jenkins, GitLab.",
+        "Kỹ năng lập trình cơ bản với Shell, Python hoặc Go."
+      ],
+      "benefits": [
+        "Môi trường làm việc thân thiện và linh hoạt.",
+        "Lương thưởng và phúc lợi hấp dẫn.",
+        "Cơ hội học hỏi và tham gia vào các dự án công nghệ tiên tiến."
+      ]
+    },
+    {
+      "id": 7,
+      "idCompany": 1,
+      "name": "Data Engineer",
+      "tags": [
+        "ETL",
+        "Data Warehousing",
+        "Apache Spark"
+      ],
+      "salary": "2000-2400",
+      "description": {
+        "responsibilities": [
+          "Xây dựng và duy trì pipeline xử lý dữ liệu lớn từ nhiều nguồn khác nhau.",
+          "Thiết kế và quản lý kho dữ liệu phục vụ cho phân tích và báo cáo.",
+          "Cải tiến hiệu suất hệ thống dữ liệu và tối ưu hóa thời gian xử lý.",
+          "Thực hiện phân tích dữ liệu để hỗ trợ các nhóm chức năng khác."
+        ],
+        "skills": [
+          "Kinh nghiệm với các công cụ ETL như Apache Nifi, Airflow.",
+          "Thông thạo SQL và các cơ sở dữ liệu lớn như Hadoop, BigQuery.",
+          "Kiến thức về xử lý dữ liệu lớn với Apache Spark và Scala."
+        ],
+        "benefits": [
+          "Lương thưởng hấp dẫn dựa trên năng suất công việc.",
+          "Tham gia vào các dự án dữ liệu lớn đa ngành.",
+          "Hỗ trợ học tập và nâng cao kỹ năng chuyên môn."
+        ]
+      },
+      "status": true,
+      "createAt": "01-11-2024 10:15:00",
+      "updateAt": "03-11-2024 22:46:02",
+      "responsibilities": [
+        "Xây dựng và duy trì pipeline xử lý dữ liệu lớn từ nhiều nguồn khác nhau.",
+        "Thiết kế và quản lý kho dữ liệu phục vụ cho phân tích và báo cáo.",
+        "Cải tiến hiệu suất hệ thống dữ liệu và tối ưu hóa thời gian xử lý.",
+        "Thực hiện phân tích dữ liệu để hỗ trợ các nhóm chức năng khác."
+      ],
+      "skills": [
+        "Kinh nghiệm với các công cụ ETL như Apache Nifi, Airflow.",
+        "Thông thạo SQL và các cơ sở dữ liệu lớn như Hadoop, BigQuery.",
+        "Kiến thức về xử lý dữ liệu lớn với Apache Spark và Scala."
+      ],
+      "benefits": [
+        "Lương thưởng hấp dẫn dựa trên năng suất công việc.",
+        "Tham gia vào các dự án dữ liệu lớn đa ngành.",
+        "Hỗ trợ học tập và nâng cao kỹ năng chuyên môn."
+      ]
+    },
+    {
+      "id": 8,
+      "idCompany": 1,
+      "name": "Cloud Architect",
+      "tags": [
+        "AWS",
+        "Azure",
+        "Cloud Security"
+      ],
+      "salary": "2500-3000",
+      "description": {
+        "responsibilities": [
+          "Thiết kế kiến trúc đám mây đảm bảo độ an toàn và khả năng mở rộng cao.",
+          "Lập kế hoạch và triển khai các dịch vụ trên AWS và Azure.",
+          "Thực hiện các biện pháp bảo mật cho hệ thống đám mây.",
+          "Đưa ra giải pháp tối ưu hóa chi phí trên đám mây."
+        ],
+        "skills": [
+          "Kiến thức sâu rộng về AWS, Azure, và các công cụ đám mây khác.",
+          "Kinh nghiệm với bảo mật trên đám mây và quản lý truy cập.",
+          "Kiến thức về Kubernetes và containerization."
+        ],
+        "benefits": [
+          "Chế độ đãi ngộ hấp dẫn và lương thưởng cạnh tranh.",
+          "Cơ hội làm việc với các công nghệ đám mây tiên tiến.",
+          "Tham gia các khóa học chuyên sâu về đám mây."
+        ]
+      },
+      "status": true,
+      "createAt": "01-11-2024 10:20:00",
+      "updateAt": "03-11-2024 22:52:54",
+      "responsibilities": [
+        "Thiết kế kiến trúc đám mây đảm bảo độ an toàn và khả năng mở rộng cao.",
+        "Lập kế hoạch và triển khai các dịch vụ trên AWS và Azure.",
+        "Thực hiện các biện pháp bảo mật cho hệ thống đám mây.",
+        "Đưa ra giải pháp tối ưu hóa chi phí trên đám mây."
+      ],
+      "skills": [
+        "Kiến thức sâu rộng về AWS, Azure, và các công cụ đám mây khác.",
+        "Kinh nghiệm với bảo mật trên đám mây và quản lý truy cập.",
+        "Kiến thức về Kubernetes và containerization."
+      ],
+      "benefits": [
+        "Chế độ đãi ngộ hấp dẫn và lương thưởng cạnh tranh.",
+        "Cơ hội làm việc với các công nghệ đám mây tiên tiến.",
+        "Tham gia các khóa học chuyên sâu về đám mây."
+      ]
+    },
+    {
+      "id": 9,
+      "idCompany": 1,
+      "name": "System Administrator",
+      "tags": [
+        "Linux",
+        "Network Security",
+        "Shell Scripting"
+      ],
+      "salary": "1600-1900",
+      "description": {
+        "responsibilities": [
+          "Quản lý và bảo trì hệ thống máy chủ Linux.",
+          "Giám sát và đảm bảo an ninh mạng của tổ chức.",
+          "Xây dựng và triển khai các giải pháp bảo mật hệ thống.",
+          "Viết script để tự động hóa các quy trình quản lý hệ thống."
+        ],
+        "skills": [
+          "Kiến thức vững về hệ điều hành Linux và các lệnh Shell.",
+          "Hiểu biết về an ninh mạng và các biện pháp bảo mật.",
+          "Kinh nghiệm với các công cụ giám sát hệ thống như Nagios, Zabbix."
+        ],
+        "benefits": [
+          "Môi trường làm việc chuyên nghiệp và thân thiện.",
+          "Tham gia vào các dự án quan trọng của công ty.",
+          "Hỗ trợ học tập và phát triển kỹ năng chuyên môn."
+        ]
+      },
+      "status": true,
+      "createAt": "02-11-2024 09:00:00",
+      "updateAt": "02-11-2024 09:00:00"
+    },
+    {
+      "id": 10,
+      "idCompany": 1,
+      "name": "Quality Assurance Engineer",
+      "tags": [
+        "QA",
+        "Automation Testing",
+        "Selenium"
+      ],
+      "salary": "1500-1800",
+      "description": {
+        "responsibilities": [
+          "Thiết kế và thực hiện các kịch bản kiểm thử để đảm bảo chất lượng sản phẩm.",
+          "Tự động hóa các kịch bản kiểm thử bằng Selenium hoặc các công cụ tương tự.",
+          "Phối hợp với các đội phát triển để phát hiện và sửa lỗi.",
+          "Báo cáo kết quả kiểm thử và đề xuất cải tiến."
+        ],
+        "skills": [
+          "Kinh nghiệm với các công cụ kiểm thử tự động như Selenium, JUnit.",
+          "Kiến thức về quy trình phát triển phần mềm và QA.",
+          "Khả năng phân tích và tư duy chi tiết."
+        ],
+        "benefits": [
+          "Lương thưởng và phúc lợi hấp dẫn.",
+          "Tham gia vào các dự án lớn với đội ngũ chuyên nghiệp.",
+          "Hỗ trợ đào tạo và phát triển kỹ năng QA chuyên sâu."
+        ]
+      },
+      "status": false,
+      "createAt": "02-11-2024 09:15:00",
+      "updateAt": "02-11-2024 09:15:00"
+    },
+    {
+      "id": 11,
+      "idCompany": 1,
+      "name": "Network Engineer",
+      "tags": [
+        "Cisco",
+        "Networking",
+        "Firewall"
+      ],
+      "salary": "1700-2100",
+      "description": {
+        "responsibilities": [
+          "Thiết kế và triển khai hệ thống mạng nội bộ.",
+          "Cấu hình và bảo trì các thiết bị mạng như router và firewall.",
+          "Đảm bảo an ninh mạng và phát hiện các nguy cơ bảo mật.",
+          "Cung cấp hỗ trợ kỹ thuật cho các sự cố mạng."
+        ],
+        "skills": [
+          "Chứng chỉ Cisco (CCNA, CCNP) là một lợi thế.",
+          "Kiến thức vững về các giao thức mạng và bảo mật.",
+          "Kỹ năng xử lý sự cố mạng và làm việc nhóm tốt."
+        ],
+        "benefits": [
+          "Chế độ đãi ngộ cạnh tranh và phúc lợi đầy đủ.",
+          "Cơ hội học hỏi và phát triển kỹ năng chuyên sâu.",
+          "Môi trường làm việc chuyên nghiệp và linh hoạt."
+        ]
+      },
+      "status": true,
+      "createAt": "02-11-2024 09:30:00",
+      "updateAt": "02-11-2024 09:30:00"
+    },
+    {
+      "id": 12,
+      "idCompany": 1,
+      "name": "Product Manager",
+      "tags": [
+        "Product Management",
+        "Agile",
+        "Scrum"
+      ],
+      "salary": "2500-3000",
+      "description": {
+        "responsibilities": [
+          "Xây dựng và quản lý chiến lược sản phẩm từ khâu ý tưởng đến khi ra mắt.",
+          "Làm việc chặt chẽ với các nhóm phát triển và thiết kế.",
+          "Xác định và theo dõi các chỉ số thành công của sản phẩm.",
+          "Thực hiện nghiên cứu thị trường để cập nhật xu hướng."
+        ],
+        "skills": [
+          "Kiến thức về Agile và Scrum trong quản lý sản phẩm.",
+          "Kỹ năng phân tích và quản lý dự án tốt.",
+          "Khả năng giao tiếp và lãnh đạo mạnh mẽ."
+        ],
+        "benefits": [
+          "Thu nhập cạnh tranh và nhiều phúc lợi hấp dẫn.",
+          "Tham gia vào các dự án sản phẩm sáng tạo.",
+          "Cơ hội thăng tiến và phát triển sự nghiệp."
+        ]
+      },
+      "status": true,
+      "createAt": "02-11-2024 09:45:00",
+      "updateAt": "02-11-2024 09:45:00"
+    },
+    {
+      "id": 13,
+      "idCompany": 1,
+      "name": "Data Analyst",
+      "tags": [
+        "SQL",
+        "Data Analysis",
+        "Excel"
+      ],
+      "salary": "1400-1700",
+      "description": {
+        "responsibilities": [
+          "Phân tích và diễn giải dữ liệu để hỗ trợ quyết định kinh doanh.",
+          "Xây dựng các báo cáo định kỳ và trực quan hóa dữ liệu.",
+          "Xác định xu hướng và cung cấp thông tin chi tiết từ dữ liệu.",
+          "Tương tác với các phòng ban để hiểu và đáp ứng nhu cầu phân tích dữ liệu."
+        ],
+        "skills": [
+          "Thông thạo SQL và Excel để xử lý dữ liệu.",
+          "Khả năng phân tích dữ liệu và trực quan hóa tốt.",
+          "Kỹ năng giao tiếp và tư duy phản biện."
+        ],
+        "benefits": [
+          "Lương thưởng và các phúc lợi đầy đủ.",
+          "Hỗ trợ đào tạo chuyên sâu về phân tích dữ liệu.",
+          "Cơ hội phát triển sự nghiệp trong lĩnh vực dữ liệu."
+        ]
+      },
+      "status": true,
+      "createAt": "02-11-2024 10:00:00",
+      "updateAt": "02-11-2024 10:00:00"
+    },
+    {
+      "id": 14,
+      "idCompany": 1,
+      "name": "IT Support",
+      "tags": [
+        "Technical Support",
+        "Troubleshooting",
+        "Customer Service"
+      ],
+      "salary": "1000-1300",
+      "description": {
+        "responsibilities": [
+          "Hỗ trợ kỹ thuật cho người dùng cuối.",
+          "Giải quyết các vấn đề liên quan đến phần mềm và phần cứng.",
+          "Hướng dẫn người dùng về cách sử dụng các thiết bị và phần mềm.",
+          "Thực hiện bảo trì và kiểm tra định kỳ các thiết bị công nghệ."
+        ],
+        "skills": [
+          "Kiến thức cơ bản về phần cứng và phần mềm.",
+          "Kỹ năng giao tiếp và giải quyết vấn đề tốt.",
+          "Khả năng làm việc độc lập và trong nhóm."
+        ],
+        "benefits": [
+          "Chế độ lương thưởng và phúc lợi tốt.",
+          "Môi trường làm việc thân thiện và hỗ trợ phát triển.",
+          "Cơ hội nâng cao kỹ năng qua các khóa đào tạo."
+        ]
+      },
+      "status": true,
+      "createAt": "02-11-2024 10:15:00",
+      "updateAt": "02-11-2024 10:15:00"
+    },
+    {
+      "id": 15,
+      "idCompany": 1,
+      "name": "Machine Learning Engineer",
+      "tags": [
+        "Machine Learning",
+        "TensorFlow",
+        "Python"
+      ],
+      "salary": "2500-3000",
+      "description": {
+        "responsibilities": [
+          "Phát triển và triển khai các mô hình học máy.",
+          "Thu thập và xử lý dữ liệu để huấn luyện mô hình.",
+          "Đánh giá và cải tiến hiệu suất của các mô hình đã phát triển.",
+          "Làm việc với các nhóm chức năng để tích hợp mô hình vào sản phẩm."
+        ],
+        "skills": [
+          "Thành thạo Python và các thư viện học máy như TensorFlow.",
+          "Kỹ năng phân tích và xử lý dữ liệu tốt.",
+          "Kinh nghiệm làm việc với các mô hình học máy phức tạp."
+        ],
+        "benefits": [
+          "Lương thưởng cạnh tranh và nhiều phúc lợi hấp dẫn.",
+          "Cơ hội tham gia vào các dự án AI tiên tiến.",
+          "Hỗ trợ học tập và nâng cao kỹ năng chuyên môn."
+        ]
+      },
+      "status": true,
+      "createAt": "02-11-2024 10:30:00"
     }
   ],
   "cvs": [

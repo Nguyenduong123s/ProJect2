@@ -7,6 +7,7 @@ import DetailJob from '../page/DetailJob';
 import Admin from '../page/Admin';
 import Dashboard from '../page/Dashboard';
 import Infor from '../page/Infor';
+import JobManage from '../page/JobManage';
 
 const routes = [
     {
@@ -48,6 +49,10 @@ const routes = [
             {
                 path: 'infor',
                 element: <Infor />,
+            },
+            {
+                path: 'job-manage',
+                element: <JobManage />,
             },
         ],
     },

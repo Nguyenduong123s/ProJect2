@@ -8,7 +8,7 @@ export const get = async (path) => {
 
 export const post = async (path, value) => {
     const option = {
-        method: 'POST', // Phương thức HTTP POST
+        method: 'POST',
         headers: {
             Accept: 'application/json',
             'Content-Type': 'application/json',
@@ -22,7 +22,7 @@ export const post = async (path, value) => {
 
 export const del = async (path, id = '') => {
     const option = {
-        method: 'DELETE', // Phương thức HTTP DELETE
+        method: 'DELETE',
         headers: {
             'Content-Type': 'application/json',
         },
@@ -38,7 +38,7 @@ export const del = async (path, id = '') => {
 
 export const update = async (path, id = '', value) => {
     const option = {
-        method: 'PATCH', // Phương thức HTTP DELETE
+        method: 'PATCH',
         headers: {
             Accept: 'application/json',
             'Content-Type': 'application/json',
